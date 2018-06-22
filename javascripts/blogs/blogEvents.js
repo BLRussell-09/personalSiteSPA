@@ -1,3 +1,6 @@
+const { getBlogs,} = require('./blogsCrud.js');
+const {domCraft, } = require('./blogsDom.js');
+
 // Save blogs that admin has created
 
 // const saveBlogsEvent = () =>
@@ -28,35 +31,23 @@
 
 // Show blogs
 
-const displayBlogs = () =>
+const getBlogsEvnt = () =>
 {
-  return Promise((resolve, reject) =>
+  $(document).ready(() =>
   {
-    const allBlogs = [];
-    $.ajax(
+    getBlogs()
+      .then((results) =>
       {
-        method: 'GET',
-        url: '../../db/blogs.json',
+        domCraft(results);
       })
-      .done((allBlogsObj) =>
+      .catch((err) =>
       {
-        if (allBlogsObj !== null)
-        {
-          Object.keys(allBlogsObj).forEach(fbKey =>
-          {
-            allBlogsObj[fbKey].id = fbKey;
-            allBlogs.push(allBlogsObj[fbKey]);
-          });
-        }
-        resolve(allBlogs);
-      })
-      .fail((err) =>
-      {
-        reject(err);
+        console.error('Error in Get All Blogs', err);
       });
   });
 };
+
 module.exports =
 {
-  displayBlogs,
+  getBlogsEvnt,
 };
