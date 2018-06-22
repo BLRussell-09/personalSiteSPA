@@ -1,0 +1,75 @@
+
+{
+  "blogs" : [
+    {
+      "title": "Start",
+      "date": " 2.27.2018",
+      "post": "This week I practiced some css and worked on my personal site. I started working on it in bootstrap and made the mistake of using bootstrap 4.0 with 3.3 syntax. Funny thing about that is, it doesnt work. Also deciding how to style the page was difficult, as I am not very creative. Eventually I just decided to throw the elements on the page and make it look 'not ugly' tldr: I learned how to make a branch in github, and confirmed my lack of creativity in website design."
+    },
+    {
+      "title": "Trouble With Arrays",
+      "date": " 3.6.18",
+      "post": "Last week I worked on some challenges involving arrays, and looping through them. It was tricky work, but I managed to find some very helpful array methods to make the tasks a bit easier. Notably the filter method and the map methods were extremely useful to me. I also managed to use the filter method to create an Array prototype called .diff(). The .dif() prototype finds the difference between two arrays, and I was able to use this to solve multiple problems."
+    },
+    {
+      "title": "Projects",
+      "date": " 3.13.18",
+      "post": "This week we started to work on projects with our groups. Here we got to start having fun, creating new things. We workd on a translator that would return your words to you in either Elvish, Klingon, or Dothraki. I had trouble with mine, returning a new line for every word translated. As it turns out, I needed an internal counter to make it work. I'm starting to more easily put the pieces together from what I've learned so far and use it to solve the problem. This related in a way to a problem that we previously worked on with arrays, the beggars issue. Now if only I were any good at styling the translator would look nice and work well."
+    },
+    {
+      "title": "Travel-Diary",
+      "date": " 3.24.18",
+      "post": "This week we worked on the travel diary, and to be honest it's the first project that I've managed to finish in one sitting. Getting the cards to print on the page, was pretty simple, as well as adding a text box to the card. However I had a little trouble printing the new cards out. I treated the problem like spaghetti, throwing every possible solution to the wall to see what stuck. eventually I got the cards to print but no text box, and had to follow the error codes down the rabbit hole. Now my cards print appropriatly and I've started working on a delete button that doesn't work."
+    },
+    {
+      "title": "Click Events",
+      "date": " 3.28.18",
+      "post": "I started working on the Solar System assignment, but I havn't finished yet. I went out of town this weekend, and it threw off my work-flow. I've managed to get the planets printing, but have yet to set reliable event listeners for clicking them to reveal a bigger planet page. I will spend some more time on this on, but to be honest it's a little boring, so I'm not feeling quite so motivated to make it awesome!"
+    },
+    {
+      "title": "Cage Match",
+      "date": " 4.9.18",
+      "post": "This week's work was a bit easier than I expected. I didn't have much troule with the assignment, however I did learn that looking at raw JSON files will very swiftly give me anxienty. Shout out to Stix, she let me know about a cool little Chrome extension called JSON formatter, which makes the JSON look so much cleaner and easier to understand. This is the first project that I actually like the styling of. Making things pretty isn't my forte, but I really like the way this one turned out."
+    },
+    {
+      "title": "Task Runners",
+      "date": " 4.17.18",
+      "post": "Right off the bat I didn't like task runners, to be honest I understand their purpose in keeping code consistent and cutting down on syntax errors. However, now I have come around to them, yet I dont like the fact that I can't run the page unless Grunt is satisfied. Grunt has made my code look a bit better over the past couple of weeks, as most of my errors are forgetting to close lines with a semi-colon."
+    },
+    {
+      "title": "Modules and Exports",
+      "date": " 4.17.18",
+      "post": "Imagine learning how to paint a portrait on a canvas, you're not great at it, but you get by. Now imagine someone removing the canvas and handing you individually shaped puzzle pieces, now you're instructed to paint again yet this time on the pieces rather than the whole. It takes a bit more thought to avoid circular logic, but the puzzle itself is still fun. It is nicer to have fewer functions on the page and makes the code overall easier on the eyes."
+    },
+    {
+      "title": "Chatty",
+      "date": " 4.30.18",
+      "post": "This week we were placed in groups to work on a project emulating a chat client, yet only locally. Working with the group was fun, and we managed to get quite a lot done over the past week. I like working with everyone, though sometimes it can be difficult to wait on someone elses work that you need before you can test yours. One of the tickets I took was an emoji ticket, to get text-emojis working on the site, however I needed a couple evenet listeners to work before I could test if it worked or not. I ended up just making them on my own so I could test the feature. All in all the project wasn't too tough, good work team!"
+    },
+    {
+      "title": "JQuery",
+      "date": " 5.15.18",
+      "post": "This week we finally added Jquery to our toolbelts. Since doing the course on treehouse I have been looking forward to using Jquery for now we have been using vanilla javascript, only a month ago moving to es6. It's very nice to write what were once complex functions on one or two lines of code. It makes it easier to concentrate on more taxing puzzles rather than having to spend too much time sorting out the little things. It is important to know the details behind javascript however, knowing how it all works helps develop flexability and extends the range of problems you can solve."
+    },
+    {
+      "title": "Promises",
+      "date": " 5.19.18",
+      "post": "I don't understand promises, this week, and elder student told a few of us that she loved promises, and that they were super useful. I know that I do not understand enough about promises to even comprehend why they would be great, or better, or more useful. So far, I gather that promises are a helpful way to call data, merge them together, or manipulate the data, and chain events. Cool. All those things seem useful, but right now, it doesn't seem any better than what we have done in the past. However, I suppose programmers don't make new things unless it's going to make life easier somehow."
+    },
+    {
+      "title": "API",
+      "date": " 5.26.18",
+      "post": "Man, lemme tell you somthing. Api's are the shit. Last week I mentioned that I didn't understand promises, but now I'm starting to understand why they would be useful. Api's have opened up a world full of data that's just floating out in the ether, waiting for a $.ajax call to bring them up. Wonder what I could do with all that data. With the skills we have now, I can at least make cards for them. Working with Api's has made things fun again. It's fun to see the results of all this work right now."
+    },
+    {
+      "title": "Firebase",
+      "date": " 6.2.18",
+      "post": "Finally, I can make things that work, save data and that I can return too. Firebase hasn't given me too much trouble yet, which could mean that I have no idea what I am doing. However, it is a slow moving process, and I still dont understand all the finer details, however I can get things to post now The past couple weeks of class, things have really gotten alot more fun as we start to make things that can work long-term and on muliple."
+    },
+    {
+      "title": "Oh CRUD",
+      "date": " 6.11.18",
+      "post": "The past couple of weeks we have been working on building CRUD apps, and things have gotten fun. Now that we are using firebase as well we are able to deploy the apps we are working on, so they really exist on the internet rather than just locally. I havn't bought url's yet though so they still have ugly url's that I couldn't be bothered to type in unless someone made a tinyurl of it. Using firebase we were also able to add authentication to our apps, enabling a user to log in and out, and save data to their specific account. Getting all this to work wasn't difficult, however searching the docs to figure out how to log in with various accounts (ex. Google) was a little menacing, it was hard to know which pieces I needed just by the look of it. I took to this like spaghetti and just threw the snippet into my code to see how it did. This actually turned out to be easier than I had previously assumed and I was able to trim off alot of excess 'code fat'. Also just for housekeeping I'm going to be adding a box for this, hopefully I can start making these from the webpage rather than actually updating the code itself."
+    }
+  ]
+}
