@@ -1,5 +1,5 @@
 .DS_Store
 lib/node_modules
-Dist
+dist
 db/apiKeys.json
 build/
