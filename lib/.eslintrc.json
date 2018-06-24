@@ -48,7 +48,6 @@
       "error",
       { "vars": "all", "args": "none", "ignoreRestSiblings": true }
     ],
-    "no-var": "error",
     "prefer-const": "error",
     "quotes": [
       "error",
