@@ -9,7 +9,7 @@ $('#blogsBtn').click(() =>
     {
       $('#blogsPage').removeClass('hide');
       $('#welcomePage').addClass('hide');
-      $('#projectsPage').addClass('hide');
+      $('.projectsPage').addClass('hide');
       $('#blogsBtn').addClass('hide');
       blogsMain;
     }
