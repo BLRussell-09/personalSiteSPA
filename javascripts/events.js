@@ -9,7 +9,8 @@ $('#blogsBtn').click(() =>
     {
       $('#blogsPage').removeClass('hide');
       $('#welcomePage').addClass('hide');
-      $('#projectsPage').addClass('hide');
+      $('.projectPage').addClass('hide');
+      $('.projectBorder').addClass('hide');
       $('#blogsBtn').addClass('hide');
       blogsMain;
     }
@@ -24,7 +25,8 @@ $('.brand-logo').click(() =>
 const resetPage = () =>
 {
   $('#welcomePage').removeClass('hide');
-  $('#projectsPage').removeClass('hide');
+  $('.projectPage').removeClass('hide');
+  $('.projectBorder').removeClass('hide');
   $('#blogsBtn').removeClass('hide');
   $('#blogsPage').addClass('hide');
   projectsMain;
